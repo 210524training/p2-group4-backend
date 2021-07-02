@@ -1,5 +1,5 @@
 import app from './app';
-// dan
+
 const port = 3000;
 
 console.log('test');
