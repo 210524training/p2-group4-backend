@@ -23,4 +23,6 @@ class User implements IUser {
     }
 }
 
+// david's edit
+
 export default User;
