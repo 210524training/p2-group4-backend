@@ -1,5 +1,5 @@
 class Asset{
-    constructor(assetName:string,asset_tag:string, deviceGroup: string, model: string,assignee:string, date_issued:string, date_decomission:string,department:string,typeOS:string, roomumber:string){}
+    constructor(assetName:string,asset_tag:string, deviceGroup: deviceGroup, model: string,assignee:string, date_issued:string, date_decomission:string,department:string,typeOS:typeOS, roomumber:string){}
 }
 
 export type deviceGroup = 'Computing Device' | 'IO Device';
