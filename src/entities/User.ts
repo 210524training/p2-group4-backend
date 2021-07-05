@@ -3,14 +3,20 @@ export interface IUser {
     name: string;
     email: string;
 }
-
+export class MUser {
+    constructor(
+      public ID: string,
+      public Password: string,
+      public Role:role,
+    ) {}
+}
 class User implements IUser {
 
     public id: number;
     public name: string;
     public email: string;
-
-    constructor(nameOrUser: string | IUser, email?: string, id?: number) {
+    constructor(nameOrUser: string | IUser, password: string, email?: string, id?: number, role?: string
+        ) {
         if (typeof nameOrUser === 'string') {
             this.name = nameOrUser;
             this.email = email || '';
@@ -25,4 +31,5 @@ class User implements IUser {
 
 // david's edit #2
 
+export type role = 'Admin' | 'Technician'
 export default User;
