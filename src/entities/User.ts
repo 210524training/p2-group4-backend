@@ -9,8 +9,8 @@ class User implements IUser {
     public id: number;
     public name: string;
     public email: string;
-
-    constructor(nameOrUser: string | IUser, email?: string, id?: number) {
+    constructor(nameOrUser: string | IUser, email?: string,public password: string, id?: number, role?: string
+        ) {
         if (typeof nameOrUser === 'string') {
             this.name = nameOrUser;
             this.email = email || '';
@@ -22,5 +22,5 @@ class User implements IUser {
         }
     }
 }
-
+export type role = 'Admin' | 'Technician'
 export default User;
