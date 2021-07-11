@@ -1,6 +1,7 @@
 /* eslint-disable */
 export default class Tickets {
   constructor(
+    public category = 'ticket',
     public id: string,
     public date: string,
     public asset_tag: string,

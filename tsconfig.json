@@ -75,5 +75,5 @@
   ],
   "include": [
     "src/**/*.ts"
- ]
+, "src/lambda/index.js" ]
 }
