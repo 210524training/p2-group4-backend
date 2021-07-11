@@ -30,20 +30,26 @@ exports.handler = async function(event) {
     case (event.httpMethod == 'Get' && event.path === logPath):
       res = getAll('log');
       break;
-    case (event.httpMethod == 'POST' && event.path === assetPath):
-      res = buildResponse(200);
+    case (event.httpMethod == 'PATCH' && event.path === assetPath):
+      res = updateStuff(requestBody.id, 'asset', requestBody.what, requestBody.change);
       break;
-    case (event.httpMethod == 'POST' && event.path === memoPath):
-      res = buildResponse(200);
+    case (event.httpMethod == 'PATCH' && event.path === memoPath):
+      res = updateStuff(requestBody.id, 'memo', requestBody.what, requestBody.change);
       break;
-    case (event.httpMethod == 'POST' && event.path === registerPath):
-      res = buildResponse(200);
+    case (event.httpMethod == 'PATCH' && event.path === registerPath):
+      res = updateStuff(requestBody.id, 'register', requestBody.what, requestBody.change);
       break;
-    case (event.httpMethod == 'POST' && event.path === ticketPath):
-      res = buildResponse(200);
+    case (event.httpMethod == 'PATCH' && event.path === ticketPath):
+      res = updateStuff(requestBody.id, 'ticket', requestBody.what, requestBody.change);
       break;
-    case (event.httpMethod == 'POST' && event.path === logPath):
-      res = buildResponse(200);
+    case (event.httpMethod == 'PATCH' && event.path === logPath):
+      res = updateStuff(requestBody.id, 'log', requestBody.what, requestBody.change);
+      break;
+    case (event.httpMethod == 'DELETE' && event.path === assetPath):
+      res = deleteStuff(requestBody.id, 'asset');
+      break;
+    case (event.httpMethod == 'DELETE' && event.path === logPath):
+      res = deleteStuff(requestBody.id, 'log');
       break;
     default:
       res = buildResponse(404, '404 not found')
@@ -83,6 +89,19 @@ async function updateStuff(id, cat, what, change) {
     ReturnValues: 'ALL_NEW',
   };
   const returned = await this.docClient.update(params).promise();
+  console.log(returned);
+  return returned;
+}
+
+async function deletStuff(id, cat) {
+  const params = {
+    TableName: tableName,
+    Key: {
+      'category': cat,
+      'id': id,
+    },
+  };
+  const returned = await this.docClient.delete(params).promise();
   console.log(returned);
   return returned;
 }
