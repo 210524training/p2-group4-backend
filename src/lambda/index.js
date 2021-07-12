@@ -31,24 +31,31 @@ exports.handler = async function(event) {
       res = getAll('log');
       break;
     case (event.httpMethod == 'PATCH' && event.path === assetPath):
+      const requestBody = JSON.parse(event.body);
       res = updateStuff(requestBody.id, 'asset', requestBody.what, requestBody.change);
       break;
     case (event.httpMethod == 'PATCH' && event.path === memoPath):
+      const requestBody = JSON.parse(event.body);
       res = updateStuff(requestBody.id, 'memo', requestBody.what, requestBody.change);
       break;
     case (event.httpMethod == 'PATCH' && event.path === registerPath):
+      const requestBody = JSON.parse(event.body);
       res = updateStuff(requestBody.id, 'register', requestBody.what, requestBody.change);
       break;
     case (event.httpMethod == 'PATCH' && event.path === ticketPath):
+      const requestBody = JSON.parse(event.body);
       res = updateStuff(requestBody.id, 'ticket', requestBody.what, requestBody.change);
       break;
     case (event.httpMethod == 'PATCH' && event.path === logPath):
+      const requestBody = JSON.parse(event.body);
       res = updateStuff(requestBody.id, 'log', requestBody.what, requestBody.change);
       break;
     case (event.httpMethod == 'DELETE' && event.path === assetPath):
+      const requestBody = JSON.parse(event.body);
       res = deleteStuff(requestBody.id, 'asset');
       break;
     case (event.httpMethod == 'DELETE' && event.path === logPath):
+      const requestBody = JSON.parse(event.body);
       res = deleteStuff(requestBody.id, 'log');
       break;
     default:
