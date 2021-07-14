@@ -1,4 +1,4 @@
-import AWS from 'aws-sdk';
+var AWS = require('aws-sdk/dist/aws-sdk-react-native');
 
 const docClient = new AWS.DynamoDB.DocumentClient({
   region: 'us-east-2',

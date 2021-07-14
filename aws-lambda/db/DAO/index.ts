@@ -1,10 +1,9 @@
-import { DocumentClient } from 'aws-sdk/clients/dynamodb';
-import dynamo from './connection/connectionService';
+import dynamo from '../connection/connectionService';
 
 const docClient = dynamo;
 const tableName = 'p2-stuff';
 
-export async function getAll(cat) {
+export async function getAll(cat:string) {
     const params = {
       TableName: tableName,
       KeyConditionExpression: '#C=:ad',
@@ -19,7 +18,7 @@ export async function getAll(cat) {
     return data.Items;
   }
   
-  export async function updateStuff(id, cat, what, change) {
+  export async function updateStuff(id:string, cat:string, what:string, change:string) {
     const params = {
       TableName: tableName,
       Key: {
@@ -40,7 +39,7 @@ export async function getAll(cat) {
     return returned;
   }
   
-  export async function deletStuff(id, cat) {
+  export async function deletStuff(id:string, cat:string) {
     const params = {
       TableName: tableName,
       Key: {
