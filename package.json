@@ -36,6 +36,7 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
+    "@serverless/typescript": "^2.50.0",
     "aws-sdk": "^2.920.0",
     "cors": "^2.8.5",
     "create-react-template": "^0.3.0",
