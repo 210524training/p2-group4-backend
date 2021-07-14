@@ -1,6 +1,15 @@
 import type { AWS } from '@serverless/typescript';
 
-import hello from '@functions/hello';
+import asset from '@functions/getAsset';
+import memo from '@functions/getMemo';
+import ticket from '@functions/getTicket';
+import log from '@functions/getLog';
+import register from '@functions/getRegister';
+import pAsset from '@functions/patchAsset';
+import pMemo from '@functions/patchMemo';
+import pTicket from '@functions/patchTicket';
+import pLog from '@functions/patchLog';
+import pRegister from '@functions/patchRegister';
 
 const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
@@ -29,7 +38,7 @@ const serverlessConfiguration: AWS = {
     lambdaHashingVersion: '20201221',
   },
   // import the function via paths
-  functions: { hello },
+  functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo },
 };
 
 module.exports = serverlessConfiguration;
