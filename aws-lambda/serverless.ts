@@ -8,9 +8,11 @@ const serverlessConfiguration: AWS = {
   custom: {
     webpack: {
       webpackConfig: './webpack.config.js',
-      includeModules: [
-        'aws-sdk',
-      ],
+      includeModules: {
+        forceExclude: [
+          'aws-sdk',
+        ],
+      },
     },
   },
   plugins: ['serverless-webpack'],
