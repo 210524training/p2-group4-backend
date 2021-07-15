@@ -5,14 +5,9 @@ import { middyfy } from '@libs/lambda';
 import schema from './schema';
 import { updateStuff } from '../../../db/DAO';
 
+const pRegister: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
+  const d = await updateStuff(event.body.id, 'register', event.body.what, event.body.change);
+  return formatJSONResponse({data:d, event});
+}
 
-// eslint-disable-next-line max-len
-
-const pRegister: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) =>
-  formatJSONResponse({
-    data: await updateStuff(event.body.id, 'register', event.body.what, event.body.change),
-    event,
-  });
-
-// eslint-disable-next-line import/prefer-default-export
 export const main = middyfy(pRegister);
