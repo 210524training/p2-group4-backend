@@ -8,6 +8,7 @@ export default {
       http: {
         method: 'patch',
         path: 'log',
+        cors: true,
         request: {
           schema: {
             'application/json': schema

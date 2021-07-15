@@ -10,6 +10,7 @@ import pMemo from '@functions/patchMemo';
 import pTicket from '@functions/patchTicket';
 import pLog from '@functions/patchLog';
 import pRegister from '@functions/patchRegister';
+import hello from '@functions/hello';
 
 const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
@@ -28,6 +29,7 @@ const serverlessConfiguration: AWS = {
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
+    // profile: 'vending-user',
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
@@ -36,9 +38,19 @@ const serverlessConfiguration: AWS = {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
     },
     lambdaHashingVersion: '20201221',
+    iamRoleStatements: [{
+      Effect: 'Allow',
+      Action: [
+        "dynamodb:Query",
+        'dynamodb:Scan',
+        'dynamodb:GetItem',
+        'dynamodb:PutItem',
+      ],
+      Resource: "*"
+    }],
   },
   // import the function via paths
-  functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo },
+  functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, hello },
 };
 
 module.exports = serverlessConfiguration;

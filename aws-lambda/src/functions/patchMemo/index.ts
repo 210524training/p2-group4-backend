@@ -8,6 +8,7 @@ export default {
       http: {
         method: 'patch',
         path: 'memo',
+        cors: true,
         request: {
           schema: {
             'application/json': schema

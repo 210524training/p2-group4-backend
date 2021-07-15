@@ -8,6 +8,7 @@ export default {
       http: {
         method: 'patch',
         path: 'asset',
+        cors: true,
         request: {
           schema: {
             'application/json': schema
