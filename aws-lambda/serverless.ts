@@ -29,7 +29,8 @@ const serverlessConfiguration: AWS = {
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
-    // profile: 'vending-user',
+    profile: 'vending-user',
+    role: 'arn:aws:iam::226220841487:role/aws-lambda-dev-us-east-1-lambdaRole',
     apiGateway: {
       minimumCompressionSize: 1024,
       shouldStartNameWithService: true,
@@ -38,16 +39,16 @@ const serverlessConfiguration: AWS = {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
     },
     lambdaHashingVersion: '20201221',
-    iamRoleStatements: [{
-      Effect: 'Allow',
-      Action: [
-        "dynamodb:Query",
-        'dynamodb:Scan',
-        'dynamodb:GetItem',
-        'dynamodb:PutItem',
-      ],
-      Resource: "*"
-    }],
+  //   iamRoleStatements: [{
+  //     Effect: 'Allow',
+  //     Action: [
+  //       "dynamodb:Query",
+  //       'dynamodb:Scan',
+  //       'dynamodb:GetItem',
+  //       'dynamodb:PutItem',
+  //     ],
+  //     Resource: "arn:aws:dynamodb:us-east-2:226220841487:table/p2-stuff"
+  //   }],
   },
   // import the function via paths
   functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, hello },

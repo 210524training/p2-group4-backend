@@ -34,7 +34,7 @@ export async function getAll(cat:string) {
       },
       ReturnValues: 'ALL_NEW',
     };
-    const returned = await this.docClient.update(params).promise();
+    const returned = await docClient.update(params).promise();
     console.log(returned);
     return returned;
   }
@@ -47,7 +47,7 @@ export async function getAll(cat:string) {
         'id': id,
       },
     };
-    const returned = await this.docClient.delete(params).promise();
+    const returned = await docClient.delete(params).promise();
     console.log(returned);
     return returned;
   }
