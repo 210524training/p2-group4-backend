@@ -12,7 +12,6 @@
   "dependencies": {
     "@middy/core": "^1.5.2",
     "@middy/http-json-body-parser": "^1.5.2",
-    "aws-lambda": "*",
     "aws-sdk": "^2.946.0",
     "cors": "^2.8.5",
     "log4js": "^6.3.0",
