@@ -9,7 +9,7 @@ export const formatJSONResponse = (response: Record<string, unknown>) => ({
   statusCode: 200,
   headers: {
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Credentials': false,
+    'Access-Control-Allow-Credentials': true,
     'Access-Control-Allow-Headers': 'content-type, X-Amx-Date, Authorization, X-Api-Key, X-Amx-Security-Token, X-Amz-User-Agent',
     'Access-Control-Allow-Methods': 'GET, POST, PATCH, DELETE, OPTIOMS',
   },

@@ -5,7 +5,7 @@ import { middyfy } from '@libs/lambda';
 import { getAll } from '../../../db/DAO';
 
 const asset: ValidatedEventAPIGatewayProxyEvent<never> = async (event) => {
-    const d = getAll('asset');
+    const d = await getAll('asset');
     return formatJSONResponse({data: d, event});
 }
 

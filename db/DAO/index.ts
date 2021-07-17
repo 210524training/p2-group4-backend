@@ -49,5 +49,5 @@ export async function getAll(cat:string) {
     };
     const returned = await docClient.delete(params).promise();
     console.log(returned);
-    return returned;
+    return true;
   }

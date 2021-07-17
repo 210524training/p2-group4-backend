@@ -1,4 +1,3 @@
-import schema from './schema';
 import { handlerPath } from '@libs/handlerResolver';
 
 export default {
@@ -7,13 +6,13 @@ export default {
     {
       http: {
         method: 'delete',
-        path: 'asset',
+        path: 'asset/{id}',
         cors: true,
-        request: {
-          schema: {
-            'application/json': schema
-          }
-        }
+        // request: {
+        //   schema: {
+        //     'application/json': schema
+        //   }
+        // }
       }
     }
   ]
