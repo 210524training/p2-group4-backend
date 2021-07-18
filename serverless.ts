@@ -11,6 +11,8 @@ import pTicket from '@functions/patchTicket';
 import pLog from '@functions/patchLog';
 import pRegister from '@functions/patchRegister';
 import dAsset from '@functions/delAsset';
+import dLog from '@functions/delLog';
+import dMemo from '@functions/delMemo';
 
 const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
@@ -51,7 +53,7 @@ const serverlessConfiguration: AWS = {
   //   }],
   },
   // import the function via paths
-  functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dAsset },
+  functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dMemo, dLog, dAsset},
 };
 
 module.exports = serverlessConfiguration;

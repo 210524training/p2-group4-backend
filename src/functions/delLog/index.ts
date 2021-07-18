@@ -6,8 +6,8 @@ export default {
   events: [
     {
       http: {
-        method: 'delete',
-        path: 'log',
+        method: 'post',
+        path: 'dlog',
         cors: true,
         request: {
           schema: {

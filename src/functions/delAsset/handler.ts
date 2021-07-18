@@ -3,10 +3,10 @@ import type { ValidatedEventAPIGatewayProxyEvent } from '@libs/apiGateway';
 import { formatJSONResponse } from '@libs/apiGateway';
 import { middyfy } from '@libs/lambda';
 import { deletStuff } from '../../../db/DAO';
+import schema from './schema';
 
-const dAsset: ValidatedEventAPIGatewayProxyEvent<never> = async (event) => {
-  const dd = event.path.split('/');
-  const d = await deletStuff(dd[1], 'asset');
+const dAsset: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
+  const d = await deletStuff(event.body.id, 'asset');
   return formatJSONResponse({data:d, event});
 }
 
