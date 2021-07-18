@@ -3,7 +3,7 @@ import dynamo from '../connection/connectionService';
 const docClient = dynamo;
 const tableName = 'p2-stuff';
 
-export async function getAll(cat:string) {
+export async function getAll(cat:string):Promise<any> {
     const params = {
       TableName: tableName,
       KeyConditionExpression: '#C=:ad',
@@ -50,4 +50,8 @@ export async function getAll(cat:string) {
     const returned = await docClient.delete(params).promise();
     console.log(returned);
     return true;
+  }
+
+  export function test1(i:string) {
+    return i;
   }
