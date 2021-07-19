@@ -1,4 +1,5 @@
 import dynamo from '../connection/connectionService';
+import User from '../entities/User'
 
 const docClient = dynamo;
 const tableName = 'p2-stuff';
@@ -48,6 +49,22 @@ export async function getAll(cat:string):Promise<any> {
       },
     };
     const returned = await docClient.delete(params).promise();
+    console.log(returned);
+    return true;
+  }
+
+  export async function putUser(user: User, cat: string) {
+    const params = {
+      TableName: tableName,
+      Key: {
+        'category': cat,
+        'id': user.id,
+      },
+      Item: { 
+        ...user,
+      },
+    };
+    const returned = await docClient.put(params).promise();
     console.log(returned);
     return true;
   }
