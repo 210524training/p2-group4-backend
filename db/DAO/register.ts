@@ -1,18 +1,19 @@
 import dynamo from '../connection/connectionService';
-import Memo from '../entities/memo';
+import Register from '../entities/register';
 
 const docClient = dynamo;
 const tableName = 'p2-stuff';
 
-export default async function addMemo(memo:Memo): Promise<string> {
+export default async function addRegister(register:Register): Promise<string> {
     const params = {
       TableName: tableName,
       Item: {
-        'category': 'memo',
-        'id': memo.id,
-        'date': memo.date,
-        'user': memo.user,
-        'message': memo.message,
+        'category': 'register',
+        'id': register.id,
+        'password': register.password,
+        'name': register.name,
+        'role': register.role,
+        'status': register.status,
       },
     };
     const data = await docClient.put(params).promise();

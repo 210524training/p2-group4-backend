@@ -1,5 +1,5 @@
 /* eslint-disable */
-class Asset {
+export default class Asset {
   constructor(
       public category = 'asset',
       public id: string,
