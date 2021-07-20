@@ -7,7 +7,7 @@ export default {
     {
       http: {
         method: 'put',
-        path: 'register',
+        path: 'comment',
         cors: true,
         request: {
           schema: {

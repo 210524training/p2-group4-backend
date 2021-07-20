@@ -3,20 +3,21 @@ import type { ValidatedEventAPIGatewayProxyEvent } from '@libs/apiGateway';
 import { formatJSONResponse } from '@libs/apiGateway';
 import { middyfy } from '@libs/lambda';
 import schema from './schema';
-import addMemo from '../../../db/DAO/memo';
-import Memo from 'db/entities/memo';
+import addComment from '../../../db/DAO/comment';
+import Commentx from 'db/entities/comments';
 // import Memo from 'db/entities/memo';
 
-const aMemo: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
-  const m = new Memo(
-    'memo',
+const aComment: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
+  const m = new Commentx(
+    'comment',
     event.body.id,
+    event.body.memo_id,
     event.body.date,
     event.body.user,
     event.body.message
   );
-  const d = await addMemo(m);
+  const d = await addComment(m);
   return formatJSONResponse({data:d, event});
 }
 
-export const main = middyfy(aMemo);
+export const main = middyfy(aComment);

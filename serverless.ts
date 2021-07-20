@@ -14,6 +14,13 @@ import dAsset from '@functions/delAsset';
 import dLog from '@functions/delLog';
 import dMemo from '@functions/delMemo';
 import getUser from '@functions/getUser';
+import aAsset from '@functions/addAsset';
+import aLog from '@functions/addLog';
+import aMemo from '@functions/addMemo';
+import aTicket from '@functions/addTicket';
+import aRegister from '@functions/addRegister';
+import comment from '@functions/getComment';
+import aComment from '@functions/addComment';
 
 const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
@@ -54,7 +61,7 @@ const serverlessConfiguration: AWS = {
   //   }],
   },
   // import the function via paths
-  functions: { asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dMemo, dLog, dAsset, getUser},
+  functions: {aComment, comment, asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dMemo, dLog, dAsset, getUser, aAsset, aMemo, aTicket, aRegister, aLog},
 };
 
 module.exports = serverlessConfiguration;
