@@ -1,7 +1,7 @@
-export default {
-  type: "object",
-  properties: {
-    username: { type: 'string' },
-  },
-  required: ['username']
-} as const;
+// export default {
+//   type: "object",
+//   properties: {
+//     id: { type: 'string' },
+//   },
+//   required: ['id']
+// } as const;

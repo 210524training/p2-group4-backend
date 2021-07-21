@@ -21,6 +21,7 @@ import aTicket from '@functions/addTicket';
 import aRegister from '@functions/addRegister';
 import comment from '@functions/getComment';
 import aComment from '@functions/addComment';
+import addRegister from '@functions/putUser'
 
 const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
@@ -61,7 +62,7 @@ const serverlessConfiguration: AWS = {
   //   }],
   },
   // import the function via paths
-  functions: {aComment, comment, asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dMemo, dLog, dAsset, getUser, aAsset, aMemo, aTicket, aRegister, aLog},
+  functions: {addRegister, aComment, comment, asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dMemo, dLog, dAsset, getUser, aAsset, aMemo, aTicket, aRegister, aLog},
 };
 
 module.exports = serverlessConfiguration;
