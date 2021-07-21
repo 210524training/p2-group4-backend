@@ -226,7 +226,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/addComment/handler.main",
               "Runtime": "nodejs14.x",
@@ -251,7 +251,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getComment/handler.main",
               "Runtime": "nodejs14.x",
@@ -276,7 +276,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getAsset/handler.main",
               "Runtime": "nodejs14.x",
@@ -301,7 +301,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getTicket/handler.main",
               "Runtime": "nodejs14.x",
@@ -326,7 +326,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getLog/handler.main",
               "Runtime": "nodejs14.x",
@@ -351,7 +351,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getMemo/handler.main",
               "Runtime": "nodejs14.x",
@@ -376,7 +376,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getRegister/handler.main",
               "Runtime": "nodejs14.x",
@@ -401,7 +401,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/patchAsset/handler.main",
               "Runtime": "nodejs14.x",
@@ -426,7 +426,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/patchTicket/handler.main",
               "Runtime": "nodejs14.x",
@@ -451,7 +451,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/patchLog/handler.main",
               "Runtime": "nodejs14.x",
@@ -476,7 +476,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/patchRegister/handler.main",
               "Runtime": "nodejs14.x",
@@ -501,7 +501,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/patchMemo/handler.main",
               "Runtime": "nodejs14.x",
@@ -526,7 +526,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/delMemo/handler.main",
               "Runtime": "nodejs14.x",
@@ -551,7 +551,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/delLog/handler.main",
               "Runtime": "nodejs14.x",
@@ -576,7 +576,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/delAsset/handler.main",
               "Runtime": "nodejs14.x",
@@ -601,7 +601,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/getUser/handler.main",
               "Runtime": "nodejs14.x",
@@ -626,7 +626,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/addAsset/handler.main",
               "Runtime": "nodejs14.x",
@@ -651,7 +651,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/addMemo/handler.main",
               "Runtime": "nodejs14.x",
@@ -676,7 +676,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/addTicket/handler.main",
               "Runtime": "nodejs14.x",
@@ -701,7 +701,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/addRegister/handler.main",
               "Runtime": "nodejs14.x",
@@ -726,7 +726,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z/aws-lambda.zip"
+                "S3Key": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z/aws-lambda.zip"
               },
               "Handler": "src/functions/addLog/handler.main",
               "Runtime": "nodejs14.x",
@@ -744,214 +744,214 @@
               "ALogLogGroup"
             ]
           },
-          "ACommentLambdaVersionkmxSLy0hlfUFkjyksU3QrtuE9xnHMoLezdGPE3u4": {
+          "ACommentLambdaVersionpraRW4t6zxCLrISkUeL3OCPCAsFraYCSOEBGux8R94": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ACommentLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "CommentLambdaVersionclLTGLIy4IKErir8xrgV39zv5lHclhkBHCzVyPqJcY": {
+          "CommentLambdaVersionQBo8S6MlbSpgZi3D3UWYlzKLxyD9kjbjJ2P17uwMQ": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CommentLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "AssetLambdaVersionhoJxEDGtIT5YZm54FdvESqq9scOL60kLsdAgZwYeE4": {
+          "AssetLambdaVersionAXAbKSewfWMxkIMbNkiaIcpBVFlZTuVCSSprGwIwZVA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AssetLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "TicketLambdaVersionVeAc71O0VYvoy0FekxkgBBct2fX9xCZbOazJXTt48": {
+          "TicketLambdaVersionEXgq0hFZ83WgW5Xj9pSPP1alf4js7uYLpKMcECgS4w": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "TicketLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "LogLambdaVersionRBlT8B3JTXf4JGBeh84DNiQ9uCPLgCcAi662cWttCo": {
+          "LogLambdaVersionkToltvMTn9UMVppie3N91vbVfhHLXH7c1iLU9Jn0": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "LogLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "MemoLambdaVersionb3zRjcjLS8iW1OrP4LGUykJZNojamIl8jEAJgA4": {
+          "MemoLambdaVersionuT7MK1AmyrrRtjNNRmxXUOHX1M71NgirKLWYJI13N4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "MemoLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "RegisterLambdaVersionS81orK19BSV6vIN6MpX7EI88eQ5r9XuBVWcoeBJ9Gc": {
+          "RegisterLambdaVersion1YmL03vZwBV9e1izkJqJwPl2TkL7AbnMGVOzd1hltVs": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "RegisterLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "PAssetLambdaVersionXukO4XuKRQneFdaS6ZEJFZJveToviEhBTbojto99g": {
+          "PAssetLambdaVersionlVIUFi5J1v3v5UZFvrSf1Us214xgQHzPiga3nRdwc": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PAssetLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "PTicketLambdaVersionWR4O29KzbjmD2Dw9MUOszzHW4ZDm6BAKb69iEY": {
+          "PTicketLambdaVersion7gSUlXz7dIV3xRtt19NUoS8wd2GESgEIQ5wKUTZTEwA": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PTicketLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "PLogLambdaVersionsimbmca399w3Tgt4YjmiTrKRh0z44Brg7YGXFERkNw": {
+          "PLogLambdaVersion32pTZS8lSzGplr4WnBoP2aIwKNMwQM4IACR1pW7fp2U": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PLogLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "PRegisterLambdaVersionKoXLGVZ86PwDRt7Sur54MNubefkmygk4M8cn1Vya0": {
+          "PRegisterLambdaVersiona90e8wVQgIfHs85Yv5P8aqLPZzdnyv56O6S50uJMMk": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PRegisterLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "PMemoLambdaVersionjienyWsCj0egnnI5jp6MnbI04ftJvfAKhgtN7cQ": {
+          "PMemoLambdaVersionUWSnXpx9qbBg2hTXporPsRcsr793iSNQC3zE5OtnU4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "PMemoLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "DMemoLambdaVersiono0z2q4cc2rPyugw5oJOLXyuzIWjTqpoOrUAdmXiIFnc": {
+          "DMemoLambdaVersion9M22QKcq1NzXMu2bhDI5mbkKkQoZI7ac9K64BIuvc": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "DMemoLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "DLogLambdaVersionI1lyzgzm7HAGhjdU5CicXKZ3sHiJuRU6zJASx0GSXo": {
+          "DLogLambdaVersionAxTUzReGKkAhyypISYfzkAIuYYYwTkIyRNTdonsr4": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "DLogLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "DAssetLambdaVersionDVh4RRBN9vW9zrU9Vs1512JwVjWcKCnNV0pTHGdeI": {
+          "DAssetLambdaVersionNEnZwKhKRjZDGHvfeDjPITR3YHkc9GdFudQd0f6uE": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "DAssetLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "GetUserLambdaVersionR4PDGlez6ClRNoWk5E9uAN6VBFqFuipv6F41n2eHNHA": {
+          "GetUserLambdaVersionkW6KpvUH5OeupY7dGiRzpLiuEW8D344BKMrIcNt0xg8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetUserLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "AAssetLambdaVersionIvTElxyOH0bdF4Z7bovUHeswtgo7rJJ0zUt7x5U3I": {
+          "AAssetLambdaVersionLn6HdAm909d2kgeIcNWk8YxDyaNoesiqUL5AbPJigKs": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AAssetLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "AMemoLambdaVersionDa8z1lIMvM3yHyOgyWa9uTWBhx2kKYVL8cgEuEYiT4": {
+          "AMemoLambdaVersionpzRQr6xnlBcRZl4mlc3WyZGhjP0cc7bRalXPXhe88A": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AMemoLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "ATicketLambdaVersionNxxxuXkZIalEb524VWqn8aIpOSr4bCh89N9KWN5tY": {
+          "ATicketLambdaVersionB17QE7cHlVmVmIcpXeI8UQWRboklcWsILkBH9RfU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ATicketLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "ARegisterLambdaVersionPpfYPBLmQwHnzsjToJ0RllA1k1nLltH3pOE87d4MV8": {
+          "ARegisterLambdaVersionyrtO63xwmEAOWwuJiBeNCciYb6H5AmFmCCEcnaGIlCo": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ARegisterLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
-          "ALogLambdaVersionsyibwCheT6ZS5ir399SRyO6eCzSx8OWgNxdcKvGshs": {
+          "ALogLambdaVersion5rA6WViYY6isFJ7EuDrIcP4GtWqhESnSPSxvEb8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ALogLambdaFunction"
               },
-              "CodeSha256": "aq7s+hwVI0siSPHykjmOukRlqXmD2HspAw+EF66czfA="
+              "CodeSha256": "WqbUpQW07p4DjY1p5fGjPSnaJOwyLu4KSAv733qiqRI="
             }
           },
           "ApiGatewayRestApi": {
@@ -2906,12 +2906,12 @@
               "Schema": {
                 "type": "object",
                 "properties": {
-                  "id": {
+                  "username": {
                     "type": "string"
                   }
                 },
                 "required": [
-                  "id"
+                  "username"
                 ]
               }
             }
@@ -2957,6 +2957,9 @@
                     "type": "string"
                   },
                   "roomNumber": {
+                    "type": "string"
+                  },
+                  "make": {
                     "type": "string"
                   }
                 },
@@ -3101,7 +3104,7 @@
               }
             }
           },
-          "ApiGatewayDeployment1626806655184": {
+          "ApiGatewayDeployment1626895213253": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -3933,7 +3936,7 @@
           "ACommentLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ACommentLambdaVersionkmxSLy0hlfUFkjyksU3QrtuE9xnHMoLezdGPE3u4"
+              "Ref": "ACommentLambdaVersionpraRW4t6zxCLrISkUeL3OCPCAsFraYCSOEBGux8R94"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-ACommentLambdaFunctionQualifiedArn"
@@ -3942,7 +3945,7 @@
           "CommentLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CommentLambdaVersionclLTGLIy4IKErir8xrgV39zv5lHclhkBHCzVyPqJcY"
+              "Ref": "CommentLambdaVersionQBo8S6MlbSpgZi3D3UWYlzKLxyD9kjbjJ2P17uwMQ"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-CommentLambdaFunctionQualifiedArn"
@@ -3951,7 +3954,7 @@
           "AssetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AssetLambdaVersionhoJxEDGtIT5YZm54FdvESqq9scOL60kLsdAgZwYeE4"
+              "Ref": "AssetLambdaVersionAXAbKSewfWMxkIMbNkiaIcpBVFlZTuVCSSprGwIwZVA"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-AssetLambdaFunctionQualifiedArn"
@@ -3960,7 +3963,7 @@
           "TicketLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "TicketLambdaVersionVeAc71O0VYvoy0FekxkgBBct2fX9xCZbOazJXTt48"
+              "Ref": "TicketLambdaVersionEXgq0hFZ83WgW5Xj9pSPP1alf4js7uYLpKMcECgS4w"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-TicketLambdaFunctionQualifiedArn"
@@ -3969,7 +3972,7 @@
           "LogLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "LogLambdaVersionRBlT8B3JTXf4JGBeh84DNiQ9uCPLgCcAi662cWttCo"
+              "Ref": "LogLambdaVersionkToltvMTn9UMVppie3N91vbVfhHLXH7c1iLU9Jn0"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-LogLambdaFunctionQualifiedArn"
@@ -3978,7 +3981,7 @@
           "MemoLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "MemoLambdaVersionb3zRjcjLS8iW1OrP4LGUykJZNojamIl8jEAJgA4"
+              "Ref": "MemoLambdaVersionuT7MK1AmyrrRtjNNRmxXUOHX1M71NgirKLWYJI13N4"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-MemoLambdaFunctionQualifiedArn"
@@ -3987,7 +3990,7 @@
           "RegisterLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "RegisterLambdaVersionS81orK19BSV6vIN6MpX7EI88eQ5r9XuBVWcoeBJ9Gc"
+              "Ref": "RegisterLambdaVersion1YmL03vZwBV9e1izkJqJwPl2TkL7AbnMGVOzd1hltVs"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-RegisterLambdaFunctionQualifiedArn"
@@ -3996,7 +3999,7 @@
           "PAssetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PAssetLambdaVersionXukO4XuKRQneFdaS6ZEJFZJveToviEhBTbojto99g"
+              "Ref": "PAssetLambdaVersionlVIUFi5J1v3v5UZFvrSf1Us214xgQHzPiga3nRdwc"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-PAssetLambdaFunctionQualifiedArn"
@@ -4005,7 +4008,7 @@
           "PTicketLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PTicketLambdaVersionWR4O29KzbjmD2Dw9MUOszzHW4ZDm6BAKb69iEY"
+              "Ref": "PTicketLambdaVersion7gSUlXz7dIV3xRtt19NUoS8wd2GESgEIQ5wKUTZTEwA"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-PTicketLambdaFunctionQualifiedArn"
@@ -4014,7 +4017,7 @@
           "PLogLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PLogLambdaVersionsimbmca399w3Tgt4YjmiTrKRh0z44Brg7YGXFERkNw"
+              "Ref": "PLogLambdaVersion32pTZS8lSzGplr4WnBoP2aIwKNMwQM4IACR1pW7fp2U"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-PLogLambdaFunctionQualifiedArn"
@@ -4023,7 +4026,7 @@
           "PRegisterLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PRegisterLambdaVersionKoXLGVZ86PwDRt7Sur54MNubefkmygk4M8cn1Vya0"
+              "Ref": "PRegisterLambdaVersiona90e8wVQgIfHs85Yv5P8aqLPZzdnyv56O6S50uJMMk"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-PRegisterLambdaFunctionQualifiedArn"
@@ -4032,7 +4035,7 @@
           "PMemoLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "PMemoLambdaVersionjienyWsCj0egnnI5jp6MnbI04ftJvfAKhgtN7cQ"
+              "Ref": "PMemoLambdaVersionUWSnXpx9qbBg2hTXporPsRcsr793iSNQC3zE5OtnU4"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-PMemoLambdaFunctionQualifiedArn"
@@ -4041,7 +4044,7 @@
           "DMemoLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "DMemoLambdaVersiono0z2q4cc2rPyugw5oJOLXyuzIWjTqpoOrUAdmXiIFnc"
+              "Ref": "DMemoLambdaVersion9M22QKcq1NzXMu2bhDI5mbkKkQoZI7ac9K64BIuvc"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-DMemoLambdaFunctionQualifiedArn"
@@ -4050,7 +4053,7 @@
           "DLogLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "DLogLambdaVersionI1lyzgzm7HAGhjdU5CicXKZ3sHiJuRU6zJASx0GSXo"
+              "Ref": "DLogLambdaVersionAxTUzReGKkAhyypISYfzkAIuYYYwTkIyRNTdonsr4"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-DLogLambdaFunctionQualifiedArn"
@@ -4059,7 +4062,7 @@
           "DAssetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "DAssetLambdaVersionDVh4RRBN9vW9zrU9Vs1512JwVjWcKCnNV0pTHGdeI"
+              "Ref": "DAssetLambdaVersionNEnZwKhKRjZDGHvfeDjPITR3YHkc9GdFudQd0f6uE"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-DAssetLambdaFunctionQualifiedArn"
@@ -4068,7 +4071,7 @@
           "GetUserLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetUserLambdaVersionR4PDGlez6ClRNoWk5E9uAN6VBFqFuipv6F41n2eHNHA"
+              "Ref": "GetUserLambdaVersionkW6KpvUH5OeupY7dGiRzpLiuEW8D344BKMrIcNt0xg8"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-GetUserLambdaFunctionQualifiedArn"
@@ -4077,7 +4080,7 @@
           "AAssetLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AAssetLambdaVersionIvTElxyOH0bdF4Z7bovUHeswtgo7rJJ0zUt7x5U3I"
+              "Ref": "AAssetLambdaVersionLn6HdAm909d2kgeIcNWk8YxDyaNoesiqUL5AbPJigKs"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-AAssetLambdaFunctionQualifiedArn"
@@ -4086,7 +4089,7 @@
           "AMemoLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AMemoLambdaVersionDa8z1lIMvM3yHyOgyWa9uTWBhx2kKYVL8cgEuEYiT4"
+              "Ref": "AMemoLambdaVersionpzRQr6xnlBcRZl4mlc3WyZGhjP0cc7bRalXPXhe88A"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-AMemoLambdaFunctionQualifiedArn"
@@ -4095,7 +4098,7 @@
           "ATicketLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ATicketLambdaVersionNxxxuXkZIalEb524VWqn8aIpOSr4bCh89N9KWN5tY"
+              "Ref": "ATicketLambdaVersionB17QE7cHlVmVmIcpXeI8UQWRboklcWsILkBH9RfU"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-ATicketLambdaFunctionQualifiedArn"
@@ -4104,7 +4107,7 @@
           "ARegisterLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ARegisterLambdaVersionPpfYPBLmQwHnzsjToJ0RllA1k1nLltH3pOE87d4MV8"
+              "Ref": "ARegisterLambdaVersionyrtO63xwmEAOWwuJiBeNCciYb6H5AmFmCCEcnaGIlCo"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-ARegisterLambdaFunctionQualifiedArn"
@@ -4113,7 +4116,7 @@
           "ALogLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ALogLambdaVersionsyibwCheT6ZS5ir399SRyO6eCzSx8OWgNxdcKvGshs"
+              "Ref": "ALogLambdaVersion5rA6WViYY6isFJ7EuDrIcP4GtWqhESnSPSxvEb8"
             },
             "Export": {
               "Name": "sls-aws-lambda-dev-ALogLambdaFunctionQualifiedArn"
@@ -4291,7 +4294,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ACommentLambdaVersionkmxSLy0hlfUFkjyksU3QrtuE9xnHMoLezdGPE3u4"
+        "versionLogicalId": "ACommentLambdaVersionpraRW4t6zxCLrISkUeL3OCPCAsFraYCSOEBGux8R94"
       },
       "comment": {
         "handler": "src/functions/getComment/handler.main",
@@ -4331,7 +4334,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "CommentLambdaVersionclLTGLIy4IKErir8xrgV39zv5lHclhkBHCzVyPqJcY"
+        "versionLogicalId": "CommentLambdaVersionQBo8S6MlbSpgZi3D3UWYlzKLxyD9kjbjJ2P17uwMQ"
       },
       "asset": {
         "handler": "src/functions/getAsset/handler.main",
@@ -4371,7 +4374,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "AssetLambdaVersionhoJxEDGtIT5YZm54FdvESqq9scOL60kLsdAgZwYeE4"
+        "versionLogicalId": "AssetLambdaVersionAXAbKSewfWMxkIMbNkiaIcpBVFlZTuVCSSprGwIwZVA"
       },
       "ticket": {
         "handler": "src/functions/getTicket/handler.main",
@@ -4411,7 +4414,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "TicketLambdaVersionVeAc71O0VYvoy0FekxkgBBct2fX9xCZbOazJXTt48"
+        "versionLogicalId": "TicketLambdaVersionEXgq0hFZ83WgW5Xj9pSPP1alf4js7uYLpKMcECgS4w"
       },
       "log": {
         "handler": "src/functions/getLog/handler.main",
@@ -4451,7 +4454,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "LogLambdaVersionRBlT8B3JTXf4JGBeh84DNiQ9uCPLgCcAi662cWttCo"
+        "versionLogicalId": "LogLambdaVersionkToltvMTn9UMVppie3N91vbVfhHLXH7c1iLU9Jn0"
       },
       "memo": {
         "handler": "src/functions/getMemo/handler.main",
@@ -4491,7 +4494,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "MemoLambdaVersionb3zRjcjLS8iW1OrP4LGUykJZNojamIl8jEAJgA4"
+        "versionLogicalId": "MemoLambdaVersionuT7MK1AmyrrRtjNNRmxXUOHX1M71NgirKLWYJI13N4"
       },
       "register": {
         "handler": "src/functions/getRegister/handler.main",
@@ -4531,7 +4534,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "RegisterLambdaVersionS81orK19BSV6vIN6MpX7EI88eQ5r9XuBVWcoeBJ9Gc"
+        "versionLogicalId": "RegisterLambdaVersion1YmL03vZwBV9e1izkJqJwPl2TkL7AbnMGVOzd1hltVs"
       },
       "pAsset": {
         "handler": "src/functions/patchAsset/handler.main",
@@ -4578,7 +4581,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "PAssetLambdaVersionXukO4XuKRQneFdaS6ZEJFZJveToviEhBTbojto99g"
+        "versionLogicalId": "PAssetLambdaVersionlVIUFi5J1v3v5UZFvrSf1Us214xgQHzPiga3nRdwc"
       },
       "pTicket": {
         "handler": "src/functions/patchTicket/handler.main",
@@ -4625,7 +4628,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "PTicketLambdaVersionWR4O29KzbjmD2Dw9MUOszzHW4ZDm6BAKb69iEY"
+        "versionLogicalId": "PTicketLambdaVersion7gSUlXz7dIV3xRtt19NUoS8wd2GESgEIQ5wKUTZTEwA"
       },
       "pLog": {
         "handler": "src/functions/patchLog/handler.main",
@@ -4672,7 +4675,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "PLogLambdaVersionsimbmca399w3Tgt4YjmiTrKRh0z44Brg7YGXFERkNw"
+        "versionLogicalId": "PLogLambdaVersion32pTZS8lSzGplr4WnBoP2aIwKNMwQM4IACR1pW7fp2U"
       },
       "pRegister": {
         "handler": "src/functions/patchRegister/handler.main",
@@ -4719,7 +4722,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "PRegisterLambdaVersionKoXLGVZ86PwDRt7Sur54MNubefkmygk4M8cn1Vya0"
+        "versionLogicalId": "PRegisterLambdaVersiona90e8wVQgIfHs85Yv5P8aqLPZzdnyv56O6S50uJMMk"
       },
       "pMemo": {
         "handler": "src/functions/patchMemo/handler.main",
@@ -4766,7 +4769,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "PMemoLambdaVersionjienyWsCj0egnnI5jp6MnbI04ftJvfAKhgtN7cQ"
+        "versionLogicalId": "PMemoLambdaVersionUWSnXpx9qbBg2hTXporPsRcsr793iSNQC3zE5OtnU4"
       },
       "dMemo": {
         "handler": "src/functions/delMemo/handler.main",
@@ -4813,7 +4816,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "DMemoLambdaVersiono0z2q4cc2rPyugw5oJOLXyuzIWjTqpoOrUAdmXiIFnc"
+        "versionLogicalId": "DMemoLambdaVersion9M22QKcq1NzXMu2bhDI5mbkKkQoZI7ac9K64BIuvc"
       },
       "dLog": {
         "handler": "src/functions/delLog/handler.main",
@@ -4860,7 +4863,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "DLogLambdaVersionI1lyzgzm7HAGhjdU5CicXKZ3sHiJuRU6zJASx0GSXo"
+        "versionLogicalId": "DLogLambdaVersionAxTUzReGKkAhyypISYfzkAIuYYYwTkIyRNTdonsr4"
       },
       "dAsset": {
         "handler": "src/functions/delAsset/handler.main",
@@ -4907,7 +4910,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "DAssetLambdaVersionDVh4RRBN9vW9zrU9Vs1512JwVjWcKCnNV0pTHGdeI"
+        "versionLogicalId": "DAssetLambdaVersionNEnZwKhKRjZDGHvfeDjPITR3YHkc9GdFudQd0f6uE"
       },
       "getUser": {
         "handler": "src/functions/getUser/handler.main",
@@ -4954,7 +4957,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "GetUserLambdaVersionR4PDGlez6ClRNoWk5E9uAN6VBFqFuipv6F41n2eHNHA"
+        "versionLogicalId": "GetUserLambdaVersionkW6KpvUH5OeupY7dGiRzpLiuEW8D344BKMrIcNt0xg8"
       },
       "aAsset": {
         "handler": "src/functions/addAsset/handler.main",
@@ -5001,7 +5004,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "AAssetLambdaVersionIvTElxyOH0bdF4Z7bovUHeswtgo7rJJ0zUt7x5U3I"
+        "versionLogicalId": "AAssetLambdaVersionLn6HdAm909d2kgeIcNWk8YxDyaNoesiqUL5AbPJigKs"
       },
       "aMemo": {
         "handler": "src/functions/addMemo/handler.main",
@@ -5048,7 +5051,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "AMemoLambdaVersionDa8z1lIMvM3yHyOgyWa9uTWBhx2kKYVL8cgEuEYiT4"
+        "versionLogicalId": "AMemoLambdaVersionpzRQr6xnlBcRZl4mlc3WyZGhjP0cc7bRalXPXhe88A"
       },
       "aTicket": {
         "handler": "src/functions/addTicket/handler.main",
@@ -5095,7 +5098,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ATicketLambdaVersionNxxxuXkZIalEb524VWqn8aIpOSr4bCh89N9KWN5tY"
+        "versionLogicalId": "ATicketLambdaVersionB17QE7cHlVmVmIcpXeI8UQWRboklcWsILkBH9RfU"
       },
       "aRegister": {
         "handler": "src/functions/addRegister/handler.main",
@@ -5142,7 +5145,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ARegisterLambdaVersionPpfYPBLmQwHnzsjToJ0RllA1k1nLltH3pOE87d4MV8"
+        "versionLogicalId": "ARegisterLambdaVersionyrtO63xwmEAOWwuJiBeNCciYb6H5AmFmCCEcnaGIlCo"
       },
       "aLog": {
         "handler": "src/functions/addLog/handler.main",
@@ -5189,7 +5192,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "ALogLambdaVersionsyibwCheT6ZS5ir399SRyO6eCzSx8OWgNxdcKvGshs"
+        "versionLogicalId": "ALogLambdaVersion5rA6WViYY6isFJ7EuDrIcP4GtWqhESnSPSxvEb8"
       }
     },
     "configValidationMode": "warn",
@@ -5216,7 +5219,7 @@
     "isDashboardMonitoringPreconfigured": false
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-lambda/dev/1626806671428-2021-07-20T18:44:31.428Z",
+    "artifactDirectoryName": "serverless/aws-lambda/dev/1626895230569-2021-07-21T19:20:30.569Z",
     "artifact": ""
   }
 }

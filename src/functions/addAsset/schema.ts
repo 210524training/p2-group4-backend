@@ -12,6 +12,7 @@ export default {
     department: { type: 'string' },
     typeOS: { type: 'string' },
     roomNumber: { type: 'string' },
+    make: { type: 'string'}
   },
   required: ['id', 'assetName']
 } as const;
