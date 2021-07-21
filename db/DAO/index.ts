@@ -53,11 +53,11 @@ export async function getAll(cat:string):Promise<any> {
     return true;
   }
 
-  export async function putUser(user: User, cat: string) {
+  export async function putUser(user: User) {
     const params = {
       TableName: tableName,
       Key: {
-        'category': cat,
+        'category': 'user',
         'id': user.id,
       },
       Item: { 

@@ -8,7 +8,7 @@ import User from 'db/entities/User';
 
 const register: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) => {
     const user = new User(event.body.id, event.body.role)
-  const d = await putUser(user, 'user');
+  const d = await putUser(user);
   return formatJSONResponse({data:d, event});
 }
 
