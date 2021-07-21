@@ -19,7 +19,8 @@ const aAsset: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event) 
     event.body.date_decomission,
     event.body.department,
     event.body.typeOS,
-    event.body.roomNumber
+    event.body.roomNumber,
+    event.body.make,
   );
   const d = await addAsset(as);
   return formatJSONResponse({data:d, event});
