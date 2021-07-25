@@ -9,6 +9,7 @@ COPY . .
 
 RUN npm ci
 
+RUN npm run build
 FROM node:lts-slim AS runner
 
 WORKDIR /app

@@ -3,3 +3,5 @@ build/
 coverage/
 log/
 .env
+awsl.js
+awsl.map.js
