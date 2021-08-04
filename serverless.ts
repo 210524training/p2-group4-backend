@@ -27,16 +27,29 @@ const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
   frameworkVersion: '2',
   custom: {
-    webpack: {
-      webpackConfig: './webpack.config.js',
-      includeModules: {
-        forceExclude: [
-          'aws-sdk',
-        ],
-      },
-    },
+    // webpack: {
+    //   webpackConfig: './webpack.config.js',
+    //   includeModules: {
+    //     forceExclude: [
+    //       'aws-sdk',
+    //     ],
+    //   },
+    // },
+    esbuild: { 
+      bundle:true,
+      minify: true,
+      sourcemap: true,
+      // keepNames:true,
+      external : [
+        'aws-sdk'
+      ],
+      watch: {
+        pattern: ['src/**/*'],
+        ignore: ['.serverless/**/*', '.build', 'node_modules','.esbuild']
+      }
+    }
   },
-  plugins: ['serverless-webpack'],
+  plugins: ['serverless-esbuild'],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',

@@ -17,4 +17,4 @@ EXPOSE 4000
 # They do basically the same thing
 # But ENTRYPOINT is preferred if you are associating
 # the process with a specific file
-ENTRYPOINT ["node", "build/index.js"]
+ENTRYPOINT ["node", "lib/src/functions/index.js"]

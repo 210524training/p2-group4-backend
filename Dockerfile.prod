@@ -16,6 +16,7 @@ WORKDIR /app
 
 COPY --from=builder /app/assetmangerbackend.js assetmangerbackend.js
 COPY --from=builder /app/logconfig.json logconfig.json
+COPY --from=builder /app/jest.config.json jest.config.json
 EXPOSE 4000
 
 # Every Image must have a CMD or ENTRYPOINT instruction
@@ -24,4 +25,4 @@ EXPOSE 4000
 # They do basically the same thing
 # But ENTRYPOINT is preferred if you are associating
 # the process with a specific file
-ENTRYPOINT ["node", "/app/assetmangerbackend.js"]
+ENTRYPOINT ["node", "/app/awsl.js"]

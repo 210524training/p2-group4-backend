@@ -1,5 +1,5 @@
 import dynamo from '../connection/connectionService';
-import User from '../entities/User'
+import User from '../entities/user'
 
 const docClient = dynamo;
 const tableName = 'p2-stuff';

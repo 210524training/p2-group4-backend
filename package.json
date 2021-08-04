@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage",
-    "build": "tsc && esbuild src/index.ts --bundle --minify --platform=node --sourcemap --outfile=awsl.js",
+    "build": "tsc && esbuild build.ts --bundle --minify --platform=node --sourcemap --outfile=awsl.js",
+    "tsc":"tsc",
     "start:prod": "npm run build && node awsl.js"
   },
   "engines": {
@@ -18,12 +19,11 @@
     "aws-sdk": "^2.946.0",
     "cors": "^2.8.5",
     "log4js": "^6.3.0",
-    "serverless-esbuild": "^1.16.1",
     "source-map-support": "^0.5.19",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@serverless/typescript": "^2.23.0",
+    "@serverless/typescript": "^2.52.1",
     "@types/aws-lambda": "^8.10.71",
     "@types/cors": "^2.8.10",
     "@types/fs-extra": "^9.0.12",
@@ -33,6 +33,7 @@
     "jest": "^27.0.6",
     "json-schema-to-ts": "^1.5.0",
     "serverless": "^2.23.0",
+    "serverless-esbuild": "^1.16.1",
     "serverless-webpack": "^5.3.5",
     "ts-jest": "^27.0.3",
     "ts-loader": "^8.0.15",
