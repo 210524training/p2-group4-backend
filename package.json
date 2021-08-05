@@ -7,7 +7,7 @@
     "test": "jest",
     "test:cov": "jest --coverage",
     "build": "tsc && esbuild src/functions/index.ts --bundle --minify --platform=node --sourcemap --outfile=assetmangerbackend.js",
-    "tsc":"tsc",
+    "tsc": "tsc",
     "start:prod": "npm run build && node awsl.js"
   },
   "engines": {
