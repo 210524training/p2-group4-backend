@@ -44,8 +44,8 @@ const serverlessConfiguration: AWS = {
         'aws-sdk'
       ],
       watch: {
-        pattern: ['src/**/*'],
-        ignore: ['.serverless/**/*', '.build', 'node_modules','.esbuild']
+        pattern: ['src/**/*','db/**/*'],
+        ignore: ['.serverless/**/*', 'lib', 'node_modules','.esbuild']
       }
     }
   },
