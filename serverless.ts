@@ -27,19 +27,10 @@ const serverlessConfiguration: AWS = {
   service: 'aws-lambda',
   frameworkVersion: '2',
   custom: {
-    // webpack: {
-    //   webpackConfig: './webpack.config.js',
-    //   includeModules: {
-    //     forceExclude: [
-    //       'aws-sdk',
-    //     ],
-    //   },
-    // },
     esbuild: { 
       bundle:true,
       minify: true,
       sourcemap: true,
-      // keepNames:true,
       external : [
         'aws-sdk'
       ],
@@ -63,101 +54,9 @@ const serverlessConfiguration: AWS = {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
     },
     lambdaHashingVersion: '20201221',
-  //   iamRoleStatements: [{
-  //     Effect: 'Allow',
-  //     Action: [
-  //       "dynamodb:Query",
-  //       'dynamodb:Scan',
-  //       'dynamodb:GetItem',
-  //       'dynamodb:PutItem',
-  //     ],
-  //     Resource: "arn:aws:dynamodb:us-east-2:226220841487:table/p2-stuff"
-  //   }],
   },
-  // import the function via paths
   functions: {addRegister, aComment, comment, asset, ticket, log, memo, register, pAsset, pTicket, pLog, pRegister, pMemo, dMemo, dLog, dAsset, getUser, aAsset, aMemo, aTicket, aRegister, aLog},
-  resources: {
-    Resources: {
-      dynamoQuery: {
-        Type: 'AWS::IAM::Role',
-        Properties: {
-          RoleName: 'lambda-dynamodb-query-access',
-          AssumeRolePolicyDocument: {
-            Version: '2012-10-17',
-            Statement: [
-              {
-                Effect: 'Allow',
-                Principal: {
-                  Service: [
-                    'lambda.amazonaws.com'
-                  ]
-                },
-                Action: 'sts:AssumeRole'
-              }
-            ]
-          },
-          Policies: [
-            {
-              PolicyName: 'lambda-dynamodb-query-access',
-              PolicyDocument: {
-                Version: '2012-10-17',
-                Statement: [
-                  {
-                    Effect: 'Allow',
-                    Action: [
-                      'logs:CreateLogGroup',
-                      'logs:CreateLogStream',
-                      'logs:PutLogEvents'
-                    ],
-                    Resource: [
-                      {
-                        'Fn::Join': [
-                          ':',
-                          [
-                            'arn:aws:logs',
-                            {
-                              Ref: 'AWS::Region'
-                            },
-                            {
-                              Ref: 'AWS::AccountId'
-                            },
-                            'log-group:/aws/lambda/*:*:*'
-                          ]
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    Effect: 'Allow',
-                    Action: [
-                      'dynamodb:*',
-                    ],
-                    Resource: [
-                      {
-                        'Fn::Join': [
-                          ':',
-                          [
-                            'arn:aws:dynamodb',
-                            {
-                              Ref: 'AWS::Region'
-                            },
-                            {
-                              Ref: 'AWS::AccountId'
-                            },
-                            'table/training-210524-dynamo-example'
-                          ]
-                        ]
-                      }
-                    ]
-                  },
-                ]
-              }
-            }
-          ]
-        }
-      }
-    }
-  }
+ 
 
 };
 
