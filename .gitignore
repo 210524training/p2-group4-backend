@@ -3,6 +3,6 @@ build/
 coverage/
 log/
 .env
-awsl.js
-awsl.map.js
+assetmangerbackend.js
+assetmangerbackend.map.js
 .esbuild
