@@ -30,7 +30,7 @@ function exec(cmd: string, loc: string): Promise<void> {
 (async () => {
   try {
     // Remove current build
-    await remove('./build/');
+    await remove('./lib/');
     // Copy front-end files
     // Copy back-end files
     await exec('tsc', './');

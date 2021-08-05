@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage",
-    "build": "tsc && esbuild build.ts --bundle --minify --platform=node --sourcemap --outfile=awsl.js",
+    "build": "tsc && esbuild build.ts --bundle --minify --platform=node --sourcemap --outfile=assetmangerbackend.js",
     "tsc":"tsc",
     "start:prod": "npm run build && node awsl.js"
   },
